@@ -13,6 +13,8 @@ In this repo I'm trying to reproduce some double descent results from several pa
 
 Nothing particularly useful here (unless you're interested in double descent).
 
+
+Reproducing polynomial regression results from the **Double Descent Demystified** paper:
 ![](/output/polynomial_double_descent.gif)
 
 
@@ -30,9 +32,8 @@ Double descent describes the phenomenon where the error curve of a model as a fu
 Given a model's complexity represented by the number of parameters $p$ and training samples $n$, the interpolation threshold is reached when $p$ equals $n$. Traditionally, if $p$ exceeds $n$, models are expected to generalize poorly on new data due to overfitting, but in double descent, as $p$ grows even larger, the generalization error decreases after surpassing the threshold.
 
 Assume a scenario where you fit a polynomial regression model:
-$$
-y_i=f\left(x_i\right)+\epsilon_i
-$$
+
+$$y_i=f\left(x_i\right)+\epsilon_i$$
 
 where $f(x)$ is the true function, $x_i$ are the data points, $y_i$ are the observed values, and $\epsilon_i$ represents noise. 
 
