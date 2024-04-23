@@ -14,6 +14,7 @@ In this repo I'm trying to reproduce some double descent results from several pa
 Nothing particularly useful here (unless you're interested in double descent).
 
 
+## Example
 Reproducing polynomial regression results from the **Double Descent Demystified** paper:
 ![](/output/polynomial_double_descent.gif)
 
