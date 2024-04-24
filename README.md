@@ -1,5 +1,7 @@
 # Double descent experiments
 
+![](/output/polynomial_double_descent.gif)
+
 In this repo I'm trying to reproduce some double descent results from several papers:
 - **Double Descent Demystified: Identifying, Interpreting & Ablating the Sources of a Deep Learning Puzzle**: https://arxiv.org/abs/2303.14151
 - **Deep Double Descent: Where Bigger Models and More Data Hurt**: https://arxiv.org/abs/1912.02292
@@ -11,6 +13,7 @@ In this repo I'm trying to reproduce some double descent results from several pa
 - **The generalization error of random features regression: Precise asymptotics and double descent curve**: https://arxiv.org/abs/1908.05355
 - **Triple descent and the two kinds of overfitting: Where & why do they appear?** : https://arxiv.org/abs/2006.03509`
 
+
 Nothing particularly useful here (unless you're interested in double descent).
 
 
@@ -21,7 +24,7 @@ Reproducing polynomial regression results from the **Double Descent Demystified*
 
 Underparameterized regime | Interpolation threshold | Overparameterized regime
 :-------------------------:|:-------------------------:|:-------------------------:
-![](/output/parameter_count=1/animation.gif)  |  ![](/output/parameter_count=10/animation.gif) |  ![](/output/parameter_count=50/animation.gif) 
+![](/output/parameter_count=1/animation.gif)  |  ![](/output/parameter_count=10/animation.gif) |  ![](/output/parameter_count=200/animation.gif) 
 
 
 # Background
