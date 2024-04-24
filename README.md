@@ -22,7 +22,7 @@ Reproducing polynomial regression results from the **Double Descent Demystified*
 ![](/output/polynomial_double_descent.gif)
 
 
-Underparameterized regime | Interpolation threshold | Overparameterized regime
+Underparameterized regime  | Interpolation threshold   | Overparameterized regime
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/output/parameter_count=1/animation.gif)  |  ![](/output/parameter_count=10/animation.gif) |  ![](/output/parameter_count=200/animation.gif) 
 
