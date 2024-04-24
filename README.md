@@ -29,7 +29,13 @@ Underparameterized regime  | Interpolation threshold   | Overparameterized regim
 
 # Background
 
+One of the most fervid claims made by modern-day DL researchers was always that "bigger models work better!!". This conflicts with standard statistical learning theory wisdom whose prediction was that bigger models would overfit on training data, interpolate noise and fail to generalize. 
+
+Who's right? Enter **double descent**.
+
 Double descent describes the phenomenon where the error curve of a model as a function of model complexity or size doesn't follow the traditional bias-variance tradeoff U-shaped curve. Instead, after an initial descent (error reduction) and subsequent ascent (error increase due to overfitting), there is a second descent in error even as model complexity continues to grow beyond the interpolation threshold.
+
+One point for modern DL folks (although this doesn't necessarily contradict classic bias-variance).
 
 # Linear regression example
 
